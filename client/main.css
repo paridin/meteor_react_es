@@ -114,9 +114,9 @@ input[type='search'] {
   align-content: flex-start;
 }
 .card_simpson .card__body img {
-  width: 220px !important;
-  height: 340px;
-  object-fit: fill;
+  width: 240px !important;
+  height: 360px !important;
+  object-fit: contain;
 }
 
 .card_simpson .card__body p {

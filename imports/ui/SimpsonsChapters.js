@@ -17,7 +17,7 @@ const SimpsonsChapters = (props) => console.log('simpson chapters', props) ||
                         <span className='simpson_font'>{c.name}</span> <span>{c.occupation}</span>
                     </div>
                     <div className="card__body">
-                        <img src={c.img_url} />
+                        <img width="220" height="340" src={c.img_url} />
                         <p>{c.detail}</p>
                     </div>
                 </div>
