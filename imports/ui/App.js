@@ -10,7 +10,7 @@ const App = (props) => console.log(props) ||
 <Router>
     <section>
         <header className="header">
-            <NavLink exact to='/'>Home</NavLink> |  <NavLink exact to='/search_es'>Search Episodes Using ES</NavLink>
+            <NavLink exact to='/'>Home</NavLink> |  <NavLink exact to='/search_es'>Search Episodes Using ES</NavLink> | <a href='https://github.com/paridin/meteor_react_es' target='_blank'> GitHub </a>
         </header>
         <Switch>
             <Route exact path='/' component={SimpsonsChapters} />
