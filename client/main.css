@@ -1,0 +1,181 @@
+/* CSS declarations go here */
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+
+:root {
+  --yellow: #ffc600;
+  --black: #272727;
+  --dark: #e1e1e1;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 300;
+  color: var(--black);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 18px;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 5px 0;
+}
+
+/* behaviour */
+.header {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.result_row {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  margin-bottom: .5rem;
+  padding: auto .5rem;
+}
+
+.result_row .details {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  margin-left: 1rem;
+  line-height: 1.8;
+}
+
+.result_row img {
+  width: 260px;
+  height: 180px;
+  object-fit: fill;
+}
+
+.watch_online {
+  display: flex;
+  height: 180px;
+  flex-direction: column;
+}
+
+.watch_online .tab {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 1rem;
+}
+
+.main_search {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+input[type='search'] {
+  width: 300px;
+  margin: 10px;
+  font-size: 1.5rem;
+}
+
+.card_simpson {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,.05);
+  margin: 1rem auto;
+}
+
+.card_simpson .title {
+  padding-left: .5rem;
+  padding-right: .5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card_simpson .card__body {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+.card_simpson .card__body img {
+  width: 220px !important;
+  height: 340px;
+  object-fit: fill;
+}
+
+.card_simpson .card__body p {
+  text-align: justify;
+  padding-right: .5rem;
+}
+
+.simpson_header {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+ /* style */
+
+.header {
+  background-color: var(--black);
+  color: white;
+}
+
+.header a {
+  color: white;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.result_row {
+  border-left: 5px solid var(--yellow);
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,.05);
+  color: var(--black);
+}
+
+.result_row .details {
+  font-weight: 100;
+}
+
+.watch_online a {
+  text-decoration: none;
+  color: var(--yellow);
+  font-weight: 300;
+}
+
+
+.watch_online a:hover {
+  text-decoration: underline;
+}
+
+.watch_online small {
+  font: x-small;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.watch_online .tab {
+  font-weight: 300;
+}
+
+.simpson_font {
+  font-family: 'Rock Salt', cursive;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+  color: var(--yellow);
+}
